@@ -23,7 +23,6 @@ function App() {
 
   function displayWindowSize() {
     setWindowWidth(window.innerWidth);
-    console.log("after", windowWidth);
   }
 
   return (
