@@ -8,8 +8,8 @@ export default defineConfig({
     react(),
     VitePWA({
       manifest: {
-        name: "qwire",
-        short_name: "myApp",
+        name: "Task Manager",
+        short_name: "Task Manager",
         description: "Tello Clone build using typescript tailwind drag n drop",
         theme_color: "#ffffff",
         icons: [
