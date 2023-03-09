@@ -3,9 +3,8 @@ import { FaRegEdit } from "react-icons/fa";
 import { useTasks } from "../context/TaskProvider";
 
 function EditTask({ task, setTask, setTasksArray }) {
-  console.log("TASK", task);
   const [showModal, setShowModal] = React.useState(false);
-  const [option, setOption] = useState("unstarted");
+  const [option, setOption] = useState(task.status);
   const { tasks } = useTasks();
 
   const titleRef = useRef();

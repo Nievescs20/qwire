@@ -1,7 +1,6 @@
 // @ts-nocheck
 import React, { useContext, useState } from "react";
 import useLocalStorage from "../components/hooks/useLocalStorage";
-import { TaskInterface } from "../models/taskInterface";
 
 const TasksContext = React.createContext();
 

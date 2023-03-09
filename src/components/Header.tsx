@@ -11,9 +11,6 @@ const Header = () => {
         <h3 className="ml-1 text-red-200">task manager</h3>
       </div>
       <div>
-        {/* <button className="mr-10 h-[50px] w-[150px] rounded-lg bg-red-500 text-white">
-          Add New Task
-        </button> */}
         <TaskModal />
       </div>
     </div>

@@ -7,8 +7,17 @@ type Props = { taskItem: TaskInterface; setTasksArray: () => void };
 
 const Task = ({ taskItem, setTasksArray }: Props) => {
   const [task, setTask] = useState(taskItem);
+
+  function handleDrag(e: React.DragEvent, task: TaskInterface) {
+    e.dataTransfer.setData("task", JSON.stringify(task));
+  }
+
   return (
-    <div className="mx-1 mt-2 h-[25%] rounded-lg border-[1px] border-slate-500 bg-gray-800 text-white ">
+    <div
+      className="mx-1 mt-2 h-[25%] rounded-lg border-[1px] border-slate-500 bg-gray-800 text-white"
+      draggable
+      onDragStart={(e) => handleDrag(e, taskItem)}
+    >
       <div className="flex py-2">
         <img
           src="images/greenCircle.png"
