@@ -35,4 +35,16 @@ To build the application for production, run the command `npm run build`. This w
 
 Web Preview
 --------------------
-![alt text](https://github.com/nievescs20/CandyCo/blob/main/public/HomeScreen.ScreenShot.png?raw=false)
+<br/>
+
+![alt text](https://github.com/nievescs20/qwire/blob/main/public/screenshots/Project_Board.png?raw=false)
+
+<br/>
+<hr/>
+
+![alt text](https://github.com/nievescs20/qwire/blob/main/public/screenshots/New_Task.png?raw=false)
+
+</br>
+<hr/>
+
+![alt text](https://github.com/nievescs20/qwire/blob/main/public/screenshots/Edit_Modal.png?raw=false)
