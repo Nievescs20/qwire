@@ -30,7 +30,7 @@ const Task = ({ taskItem, setTasksArray }: Props) => {
             <h3 className="text-blue-500 line-clamp-2">
               <PreviewModal task={taskItem} />
             </h3>
-            <div className="flex w-[40px] justify-between">
+            <div className="m-[2px] flex min-w-[40px] justify-between">
               <EditModal
                 task={task}
                 setTask={setTask}
