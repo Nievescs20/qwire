@@ -15,7 +15,7 @@ To run the application locally, you'll need to have Node.js and npm installed on
 
 The application should now be running at `http://localhost:<some-port-#>`. Check your terminal for the exact port number.
 
-This application is a PWA, which means it can be installed and used offline on any desktop or laptop machine. To do this, simply visit the website https://qtaskmanager.onrender.com/ on your machine and follow the instructions to add the application to your applications.
+This application is a PWA, which means it can be installed and used offline on any desktop or laptop machine. To do this, simply visit the website https://qtaskmanager.onrender.com/ on your machine and click the install button located at the right side of the url bar.
 
 Features
 --------
