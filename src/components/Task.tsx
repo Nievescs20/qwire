@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import PreviewModal from "./PreviewModal";
 import { TaskInterface } from "../models/taskInterface";
 import EditModal from "./EditModal";
 import DeleteModal from "./DeleteModal";
@@ -26,7 +27,9 @@ const Task = ({ taskItem, setTasksArray }: Props) => {
         />
         <div className="mx-2 w-full">
           <div className="flex w-full justify-between">
-            <h3 className="text-blue-500">{task.title}:</h3>
+            <h3 className="text-blue-500 line-clamp-2">
+              <PreviewModal task={taskItem} />
+            </h3>
             <div className="flex w-[40px] justify-between">
               <EditModal
                 task={task}
@@ -40,7 +43,7 @@ const Task = ({ taskItem, setTasksArray }: Props) => {
               />
             </div>
           </div>
-          <h3 className="text-slate-400 line-clamp-3">{task.description}</h3>
+          <h3 className="text-slate-400 line-clamp-2">{task.description}</h3>
         </div>
       </div>
     </div>
