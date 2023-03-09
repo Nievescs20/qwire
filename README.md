@@ -20,7 +20,7 @@ This application is a PWA, which means it can be installed and used offline on a
 Features
 --------
 
-This application is a simple Trello clone that allows you to add, delete and edit tasks. The state of the list is persisted using Local Storage, so your list will be saved even if you close the browser window or application if saved to your machine.
+This application is a simple Trello clone that allows you to add, delete and edit tasks. The state of the tasks is persisted using Local Storage, so your tasks will be saved even if you close the browser window or application if saved to your machine.
 
 The application is built with TypeScript, which allows for easier development and maintainability of the codebase. Additionally, it uses Vite for fast and efficient builds, which makes development a breeze.
 
