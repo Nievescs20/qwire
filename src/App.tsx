@@ -3,8 +3,10 @@ import { TaskProvider } from "./context/TaskProvider";
 import useLocalStorage from "./components/hooks/useLocalStorage";
 import Sorry from "./components/Sorry";
 
-// @ts-ignore
-const isMobile = navigator.userAgentData.mobile;
+const isMobile =
+  /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+    navigator.userAgent
+  );
 console.log(isMobile);
 
 function App() {
