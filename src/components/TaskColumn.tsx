@@ -42,7 +42,7 @@ function TaskColumn({ name, tasksArray, setTasksArray, columnNumber }: Props) {
   return (
     <>
       <div onDrop={(e) => handleDrop(e)} onDragOver={handleDragOver}>
-        <div className="h-[60vh] w-[28vw]  rounded-xl border-2 border-solid border-black bg-gray-900">
+        <div className="h-[60vh] w-[28vw] overflow-auto rounded-xl border-2 border-solid border-black bg-gray-900 scrollbar-hide">
           <div className="z-10 m-2 flex">
             <div className="mr-2 flex w-[25px] items-center justify-center rounded-full bg-gray-800 text-slate-300">
               {tasksArray.length}
