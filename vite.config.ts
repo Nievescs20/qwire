@@ -10,15 +10,17 @@ export default defineConfig({
       manifest: {
         name: "qwire",
         short_name: "myApp",
+        description: "Tello Clone build using typescript tailwind drag n drop",
+        theme_color: "#ffffff",
         icons: [
           {
-            src: "/images/android-chrom-256x256.png",
+            src: "/favicon/android-chrome-256x256.png",
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable",
           },
           {
-            src: "/images/android-chrom-256x256.png",
+            src: "/favicon/android-chrome-256x256.png",
             sizes: "192x192",
             type: "image/png",
             purpose: "any maskable",
