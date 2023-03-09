@@ -10,7 +10,7 @@ function Footer() {
     <div className="just absolute bottom-0 flex h-[10vh] w-[100vw] items-center justify-center bg-black text-xs text-white">
       <div className="flex w-3/5 justify-center">
         <h1 className="flex items-center justify-center text-base">
-          Chris Nieves Enterprises ©, Inc. All rights reserved.
+          Chris Nieves ©, Inc. All rights reserved.
         </h1>
         <div className="ml-4 flex ">
           <a
