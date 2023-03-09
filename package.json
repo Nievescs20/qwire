@@ -2,26 +2,38 @@
   "name": "qwire",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "cd server && npm run start",
+    "seed": "node script/seed.ts"
   },
   "dependencies": {
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "express": "^4.18.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "sequelize": "^6.28.0"
   },
   "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.13.0",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
+    "@types/sequelize": "^4.28.14",
     "@vitejs/plugin-react": "^3.1.0",
     "autoprefixer": "^10.4.13",
+    "nodemon": "^2.0.20",
     "postcss": "^8.4.21",
     "prettier": "^2.8.3",
     "prettier-plugin-tailwindcss": "^0.2.2",
     "tailwindcss": "^3.2.4",
-    "typescript": "^4.9.3",
-    "vite": "^4.1.0"
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5",
+    "uuid": "^9.0.0",
+    "vite": "^4.1.0",
+    "vite-plugin-pwa": "^0.14.4"
   }
 }
