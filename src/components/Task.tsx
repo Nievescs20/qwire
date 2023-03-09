@@ -15,7 +15,7 @@ const Task = ({ taskItem, setTasksArray }: Props) => {
 
   return (
     <div
-      className="mx-1 mt-2 h-[25%] rounded-lg border-[1px] border-slate-500 bg-gray-800 text-white"
+      className="mx-1 mt-2 min-h-[25%] rounded-lg border-[1px] border-slate-500 bg-gray-800 text-white"
       draggable
       onDragStart={(e) => handleDrag(e, taskItem)}
     >
