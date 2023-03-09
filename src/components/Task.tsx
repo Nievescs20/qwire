@@ -25,7 +25,7 @@ const Task = ({ taskItem, setTasksArray }: Props) => {
           alt="bullet"
           className="m-2 h-[10px] w-[10px]"
         />
-        <div className="mx-2 w-full">
+        <div className="mx-2 w-full overflow-hidden">
           <div className="flex w-full justify-between">
             <h3 className="text-blue-500 line-clamp-2">
               <PreviewModal task={taskItem} />
