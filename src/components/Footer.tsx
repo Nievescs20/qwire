@@ -13,19 +13,27 @@ function Footer() {
           Chris Nieves Enterprises ©, Inc. All rights reserved.
         </h1>
         <div className="ml-4 flex ">
-          <a className={`${imgClass} flex items-center justify-center text-lg`}>
+          <a
+            className={`${imgClass} flex items-center justify-center text-lg`}
+            href="https://github.com/Nievescs20/qwire"
+            target="_blank"
+          >
             <FaGithub />
           </a>
-          <div
+          <a
             className={`${imgClass} flex items-center justify-center text-lg`}
+            href="https://www.linkedin.com/in/christophernieves20/"
+            target="_blank"
           >
             <FaLinkedin />
-          </div>
-          <div
+          </a>
+          <a
             className={`${imgClass} flex items-center justify-center text-lg`}
+            href="https://www.chris-nieves.com"
+            target="_blank"
           >
             <TbWorldWww />
-          </div>
+          </a>
         </div>
       </div>
     </div>
