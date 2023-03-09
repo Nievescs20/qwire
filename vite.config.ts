@@ -8,10 +8,18 @@ export default defineConfig({
     react(),
     VitePWA({
       manifest: {
+        name: "qwire",
+        short_name: "myApp",
         icons: [
           {
             src: "/images/android-chrom-256x256.png",
             sizes: "512x512",
+            type: "image/png",
+            purpose: "any maskable",
+          },
+          {
+            src: "/images/android-chrom-256x256.png",
+            sizes: "192x192",
             type: "image/png",
             purpose: "any maskable",
           },
