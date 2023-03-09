@@ -3,6 +3,7 @@ import { TaskProvider } from "./context/TaskProvider";
 import useLocalStorage from "./components/hooks/useLocalStorage";
 import Sorry from "./components/Sorry";
 
+// @ts-ignore
 const isMobile = navigator.userAgentData.mobile;
 console.log(isMobile);
 
